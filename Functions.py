@@ -1,10 +1,16 @@
 
+
 calculation_to_units = 24
 name_of_unit = "hours"
 
 
-print(f"35 days are {35 * calculation_to_units}  {name_of_unit}")
-print(f"50 days are {50 * calculation_to_units}  {name_of_unit}")
-print(f"75 days are {75 * calculation_to_units}  {name_of_unit}")
-print(f"100 days are {100 * calculation_to_units}  {name_of_unit}")
+def days_to_units(num_of_days):
+    print(f"{num_of_days} days are {num_of_days * calculation_to_units}  {name_of_unit}")
+
+days_to_units(20)
+days_to_units(35)
+days_to_units(50)
+days_to_units(110)
+
+
 
