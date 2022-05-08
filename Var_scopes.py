@@ -9,8 +9,13 @@ def days_to_units(num_of_days, custom_message):
     print(custom_message)
 
 
-days_to_units(20, "Message")
-days_to_units(35, "Message")
+def scope_check(num_of_days):
+    my_var = "my variable inside a function"
+    print(name_of_unit) #pulling a global variable into a local function
+    print(num_of_days)
+    print(my_var)
+
+scope_check(20)
 
 
 
