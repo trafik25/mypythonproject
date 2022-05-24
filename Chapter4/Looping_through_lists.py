@@ -1,13 +1,11 @@
 
-
+#page 87
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
-    print(magician.title() + ", that was a great trick!")
+    #print(magician)
+    print("Hey " + magician.title() + " that's a great trick!")
 
-    magicians = ['alice', 'david', 'carolina']
-    for magician in magicians:
-        print(magician.title() + ", that was a great trick!")
-        print("I can't wait to see your next trick, " + magician.title() + ".\n")
+print("Hey Everyone, thanks for the show tonight")
 
 
-    print("Thank you, everyone. That was a great magic show!")
+####Page 92
